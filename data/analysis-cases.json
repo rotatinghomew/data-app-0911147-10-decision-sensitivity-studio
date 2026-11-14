@@ -1,0 +1,2432 @@
+[
+  {
+    "name": "correlated_joint",
+    "study": {
+      "input_contract": {
+        "stochastic_joint": [
+          "participants",
+          "hours",
+          "hourly_cost"
+        ],
+        "joint_samples": [
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 53,
+            "hours": 5.619,
+            "hourly_cost": 38.6
+          },
+          {
+            "participants": 139,
+            "hours": 7.869,
+            "hourly_cost": 41.703
+          },
+          {
+            "participants": 87,
+            "hours": 7.191,
+            "hourly_cost": 39.325
+          },
+          {
+            "participants": 59,
+            "hours": 6.186,
+            "hourly_cost": 39.981
+          },
+          {
+            "participants": 113,
+            "hours": 6.652,
+            "hourly_cost": 42.55
+          },
+          {
+            "participants": 84,
+            "hours": 5.837,
+            "hourly_cost": 39.965
+          },
+          {
+            "participants": 116,
+            "hours": 7.542,
+            "hourly_cost": 45.108
+          },
+          {
+            "participants": 126,
+            "hours": 6.833,
+            "hourly_cost": 40.834
+          },
+          {
+            "participants": 83,
+            "hours": 6.959,
+            "hourly_cost": 40.321
+          },
+          {
+            "participants": 133,
+            "hours": 8.451,
+            "hourly_cost": 45.227
+          },
+          {
+            "participants": 74,
+            "hours": 5.646,
+            "hourly_cost": 42.633
+          },
+          {
+            "participants": 85,
+            "hours": 7.066,
+            "hourly_cost": 41.631
+          },
+          {
+            "participants": 131,
+            "hours": 7.506,
+            "hourly_cost": 46.076
+          },
+          {
+            "participants": 121,
+            "hours": 7.234,
+            "hourly_cost": 43.611
+          },
+          {
+            "participants": 99,
+            "hours": 7.155,
+            "hourly_cost": 42.684
+          },
+          {
+            "participants": 54,
+            "hours": 4.928,
+            "hourly_cost": 39.062
+          },
+          {
+            "participants": 74,
+            "hours": 5.841,
+            "hourly_cost": 42.137
+          },
+          {
+            "participants": 80,
+            "hours": 6.687,
+            "hourly_cost": 40.286
+          },
+          {
+            "participants": 112,
+            "hours": 7.337,
+            "hourly_cost": 41.035
+          },
+          {
+            "participants": 145,
+            "hours": 8.53,
+            "hourly_cost": 45.648
+          },
+          {
+            "participants": 70,
+            "hours": 6.567,
+            "hourly_cost": 37.138
+          },
+          {
+            "participants": 68,
+            "hours": 5.617,
+            "hourly_cost": 40.734
+          },
+          {
+            "participants": 102,
+            "hours": 6.634,
+            "hourly_cost": 41.899
+          },
+          {
+            "participants": 106,
+            "hours": 7.356,
+            "hourly_cost": 43.109
+          },
+          {
+            "participants": 121,
+            "hours": 7.515,
+            "hourly_cost": 45.709
+          },
+          {
+            "participants": 45,
+            "hours": 5.926,
+            "hourly_cost": 36.581
+          },
+          {
+            "participants": 116,
+            "hours": 6.715,
+            "hourly_cost": 40.104
+          },
+          {
+            "participants": 64,
+            "hours": 5.524,
+            "hourly_cost": 37.114
+          },
+          {
+            "participants": 95,
+            "hours": 6.742,
+            "hourly_cost": 38.958
+          },
+          {
+            "participants": 148,
+            "hours": 8.823,
+            "hourly_cost": 47.786
+          },
+          {
+            "participants": 149,
+            "hours": 7.688,
+            "hourly_cost": 42.691
+          },
+          {
+            "participants": 77,
+            "hours": 6.969,
+            "hourly_cost": 41.584
+          },
+          {
+            "participants": 64,
+            "hours": 5.403,
+            "hourly_cost": 38.837
+          },
+          {
+            "participants": 41,
+            "hours": 5.176,
+            "hourly_cost": 40.655
+          },
+          {
+            "participants": 62,
+            "hours": 6.544,
+            "hourly_cost": 38.412
+          },
+          {
+            "participants": 115,
+            "hours": 7.357,
+            "hourly_cost": 41.721
+          },
+          {
+            "participants": 57,
+            "hours": 5.99,
+            "hourly_cost": 36.604
+          },
+          {
+            "participants": 132,
+            "hours": 7.332,
+            "hourly_cost": 43.788
+          },
+          {
+            "participants": 102,
+            "hours": 6.751,
+            "hourly_cost": 40.69
+          },
+          {
+            "participants": 108,
+            "hours": 7.001,
+            "hourly_cost": 41.267
+          },
+          {
+            "participants": 142,
+            "hours": 8.208,
+            "hourly_cost": 46.793
+          },
+          {
+            "participants": 122,
+            "hours": 7.581,
+            "hourly_cost": 42.841
+          },
+          {
+            "participants": 96,
+            "hours": 6.309,
+            "hourly_cost": 38.71
+          },
+          {
+            "participants": 145,
+            "hours": 8.832,
+            "hourly_cost": 46.369
+          },
+          {
+            "participants": 107,
+            "hours": 6.669,
+            "hourly_cost": 42.009
+          },
+          {
+            "participants": 67,
+            "hours": 5.527,
+            "hourly_cost": 42.368
+          },
+          {
+            "participants": 117,
+            "hours": 7.254,
+            "hourly_cost": 42.602
+          },
+          {
+            "participants": 116,
+            "hours": 7.446,
+            "hourly_cost": 45.568
+          },
+          {
+            "participants": 45,
+            "hours": 4.643,
+            "hourly_cost": 39.959
+          },
+          {
+            "participants": 133,
+            "hours": 7.787,
+            "hourly_cost": 44.95
+          },
+          {
+            "participants": 114,
+            "hours": 7.98,
+            "hourly_cost": 40.541
+          },
+          {
+            "participants": 62,
+            "hours": 6.019,
+            "hourly_cost": 38.208
+          },
+          {
+            "participants": 42,
+            "hours": 4.463,
+            "hourly_cost": 40.306
+          },
+          {
+            "participants": 137,
+            "hours": 7.77,
+            "hourly_cost": 42.921
+          },
+          {
+            "participants": 62,
+            "hours": 5.84,
+            "hourly_cost": 41.83
+          },
+          {
+            "participants": 67,
+            "hours": 5.483,
+            "hourly_cost": 39.143
+          },
+          {
+            "participants": 137,
+            "hours": 7.449,
+            "hourly_cost": 46.259
+          },
+          {
+            "participants": 88,
+            "hours": 6.422,
+            "hourly_cost": 43.064
+          },
+          {
+            "participants": 89,
+            "hours": 6.587,
+            "hourly_cost": 39.991
+          },
+          {
+            "participants": 60,
+            "hours": 5.83,
+            "hourly_cost": 38.071
+          },
+          {
+            "participants": 98,
+            "hours": 7.142,
+            "hourly_cost": 42.16
+          },
+          {
+            "participants": 71,
+            "hours": 6.617,
+            "hourly_cost": 39.297
+          },
+          {
+            "participants": 86,
+            "hours": 6.933,
+            "hourly_cost": 40.169
+          },
+          {
+            "participants": 113,
+            "hours": 7.81,
+            "hourly_cost": 42.983
+          },
+          {
+            "participants": 124,
+            "hours": 7.665,
+            "hourly_cost": 41.542
+          },
+          {
+            "participants": 146,
+            "hours": 7.91,
+            "hourly_cost": 46.122
+          },
+          {
+            "participants": 142,
+            "hours": 7.804,
+            "hourly_cost": 44.777
+          },
+          {
+            "participants": 146,
+            "hours": 8.253,
+            "hourly_cost": 42.545
+          },
+          {
+            "participants": 49,
+            "hours": 5.557,
+            "hourly_cost": 37.712
+          },
+          {
+            "participants": 113,
+            "hours": 7.963,
+            "hourly_cost": 41.893
+          },
+          {
+            "participants": 48,
+            "hours": 5.673,
+            "hourly_cost": 37.023
+          },
+          {
+            "participants": 144,
+            "hours": 8.157,
+            "hourly_cost": 42.022
+          },
+          {
+            "participants": 43,
+            "hours": 5.401,
+            "hourly_cost": 39.599
+          },
+          {
+            "participants": 82,
+            "hours": 6.518,
+            "hourly_cost": 39.116
+          },
+          {
+            "participants": 71,
+            "hours": 5.521,
+            "hourly_cost": 41.858
+          },
+          {
+            "participants": 125,
+            "hours": 7.575,
+            "hourly_cost": 40.54
+          },
+          {
+            "participants": 122,
+            "hours": 6.833,
+            "hourly_cost": 42.74
+          },
+          {
+            "participants": 94,
+            "hours": 5.996,
+            "hourly_cost": 39.286
+          },
+          {
+            "participants": 72,
+            "hours": 5.87,
+            "hourly_cost": 37.84
+          },
+          {
+            "participants": 59,
+            "hours": 5.935,
+            "hourly_cost": 39.166
+          },
+          {
+            "participants": 97,
+            "hours": 6.185,
+            "hourly_cost": 44.051
+          },
+          {
+            "participants": 52,
+            "hours": 6.078,
+            "hourly_cost": 38.248
+          },
+          {
+            "participants": 47,
+            "hours": 6.01,
+            "hourly_cost": 39.433
+          },
+          {
+            "participants": 73,
+            "hours": 5.36,
+            "hourly_cost": 37.092
+          },
+          {
+            "participants": 79,
+            "hours": 5.605,
+            "hourly_cost": 42.075
+          },
+          {
+            "participants": 140,
+            "hours": 8.766,
+            "hourly_cost": 41.96
+          },
+          {
+            "participants": 43,
+            "hours": 4.52,
+            "hourly_cost": 38.038
+          },
+          {
+            "participants": 116,
+            "hours": 6.54,
+            "hourly_cost": 43.425
+          },
+          {
+            "participants": 104,
+            "hours": 6.188,
+            "hourly_cost": 40.447
+          },
+          {
+            "participants": 141,
+            "hours": 7.459,
+            "hourly_cost": 44.482
+          },
+          {
+            "participants": 75,
+            "hours": 6.859,
+            "hourly_cost": 37.902
+          },
+          {
+            "participants": 76,
+            "hours": 5.822,
+            "hourly_cost": 41.153
+          },
+          {
+            "participants": 64,
+            "hours": 5.846,
+            "hourly_cost": 38.374
+          },
+          {
+            "participants": 41,
+            "hours": 5.087,
+            "hourly_cost": 36.543
+          },
+          {
+            "participants": 97,
+            "hours": 7.286,
+            "hourly_cost": 41.357
+          },
+          {
+            "participants": 114,
+            "hours": 7.652,
+            "hourly_cost": 45.353
+          },
+          {
+            "participants": 142,
+            "hours": 7.567,
+            "hourly_cost": 44.137
+          },
+          {
+            "participants": 134,
+            "hours": 8.421,
+            "hourly_cost": 46.691
+          },
+          {
+            "participants": 147,
+            "hours": 7.849,
+            "hourly_cost": 43.894
+          },
+          {
+            "participants": 94,
+            "hours": 6.017,
+            "hourly_cost": 41.234
+          },
+          {
+            "participants": 121,
+            "hours": 7.576,
+            "hourly_cost": 45.485
+          },
+          {
+            "participants": 69,
+            "hours": 5.868,
+            "hourly_cost": 41.428
+          },
+          {
+            "participants": 141,
+            "hours": 8.564,
+            "hourly_cost": 42.979
+          },
+          {
+            "participants": 81,
+            "hours": 5.801,
+            "hourly_cost": 39.161
+          },
+          {
+            "participants": 127,
+            "hours": 7.256,
+            "hourly_cost": 42.693
+          },
+          {
+            "participants": 75,
+            "hours": 6.131,
+            "hourly_cost": 40.604
+          },
+          {
+            "participants": 42,
+            "hours": 5.507,
+            "hourly_cost": 40.723
+          },
+          {
+            "participants": 118,
+            "hours": 6.886,
+            "hourly_cost": 44.664
+          },
+          {
+            "participants": 134,
+            "hours": 7.788,
+            "hourly_cost": 43.559
+          },
+          {
+            "participants": 104,
+            "hours": 6.178,
+            "hourly_cost": 40.038
+          },
+          {
+            "participants": 110,
+            "hours": 7.285,
+            "hourly_cost": 41.959
+          },
+          {
+            "participants": 81,
+            "hours": 5.564,
+            "hourly_cost": 38.592
+          },
+          {
+            "participants": 49,
+            "hours": 5.705,
+            "hourly_cost": 37.526
+          },
+          {
+            "participants": 102,
+            "hours": 6.617,
+            "hourly_cost": 40.018
+          },
+          {
+            "participants": 145,
+            "hours": 8.132,
+            "hourly_cost": 42.254
+          },
+          {
+            "participants": 80,
+            "hours": 6.225,
+            "hourly_cost": 42.54
+          },
+          {
+            "participants": 139,
+            "hours": 8.285,
+            "hourly_cost": 43.837
+          },
+          {
+            "participants": 85,
+            "hours": 5.948,
+            "hourly_cost": 41.294
+          },
+          {
+            "participants": 80,
+            "hours": 6.739,
+            "hourly_cost": 43.03
+          },
+          {
+            "participants": 109,
+            "hours": 6.561,
+            "hourly_cost": 41.356
+          },
+          {
+            "participants": 87,
+            "hours": 5.769,
+            "hourly_cost": 41.845
+          },
+          {
+            "participants": 144,
+            "hours": 7.683,
+            "hourly_cost": 45.35
+          },
+          {
+            "participants": 129,
+            "hours": 7.388,
+            "hourly_cost": 40.764
+          },
+          {
+            "participants": 75,
+            "hours": 5.876,
+            "hourly_cost": 37.446
+          },
+          {
+            "participants": 108,
+            "hours": 7.134,
+            "hourly_cost": 44.096
+          },
+          {
+            "participants": 144,
+            "hours": 8.61,
+            "hourly_cost": 43.077
+          },
+          {
+            "participants": 71,
+            "hours": 6.702,
+            "hourly_cost": 41.072
+          },
+          {
+            "participants": 48,
+            "hours": 5.631,
+            "hourly_cost": 37.13
+          },
+          {
+            "participants": 67,
+            "hours": 5.317,
+            "hourly_cost": 40.655
+          },
+          {
+            "participants": 116,
+            "hours": 6.649,
+            "hourly_cost": 39.82
+          },
+          {
+            "participants": 146,
+            "hours": 7.636,
+            "hourly_cost": 45.661
+          },
+          {
+            "participants": 66,
+            "hours": 5.905,
+            "hourly_cost": 41.302
+          },
+          {
+            "participants": 119,
+            "hours": 7.861,
+            "hourly_cost": 41.376
+          },
+          {
+            "participants": 85,
+            "hours": 6.406,
+            "hourly_cost": 43.043
+          },
+          {
+            "participants": 68,
+            "hours": 6.015,
+            "hourly_cost": 39.317
+          },
+          {
+            "participants": 108,
+            "hours": 7.842,
+            "hourly_cost": 40.397
+          },
+          {
+            "participants": 93,
+            "hours": 6.605,
+            "hourly_cost": 39.328
+          },
+          {
+            "participants": 93,
+            "hours": 6.02,
+            "hourly_cost": 41.527
+          },
+          {
+            "participants": 123,
+            "hours": 7.605,
+            "hourly_cost": 44.183
+          },
+          {
+            "participants": 107,
+            "hours": 6.337,
+            "hourly_cost": 41.514
+          },
+          {
+            "participants": 143,
+            "hours": 8.834,
+            "hourly_cost": 47.485
+          },
+          {
+            "participants": 62,
+            "hours": 5.941,
+            "hourly_cost": 37.011
+          },
+          {
+            "participants": 94,
+            "hours": 6.885,
+            "hourly_cost": 40.31
+          },
+          {
+            "participants": 49,
+            "hours": 5.916,
+            "hourly_cost": 37.042
+          },
+          {
+            "participants": 47,
+            "hours": 4.634,
+            "hourly_cost": 36.992
+          },
+          {
+            "participants": 73,
+            "hours": 5.59,
+            "hourly_cost": 40.991
+          },
+          {
+            "participants": 72,
+            "hours": 5.277,
+            "hourly_cost": 40.445
+          },
+          {
+            "participants": 132,
+            "hours": 7.275,
+            "hourly_cost": 46.221
+          },
+          {
+            "participants": 97,
+            "hours": 7.569,
+            "hourly_cost": 42.122
+          },
+          {
+            "participants": 97,
+            "hours": 5.978,
+            "hourly_cost": 42.475
+          },
+          {
+            "participants": 85,
+            "hours": 6.102,
+            "hourly_cost": 42.979
+          },
+          {
+            "participants": 138,
+            "hours": 7.608,
+            "hourly_cost": 42.406
+          },
+          {
+            "participants": 114,
+            "hours": 7.317,
+            "hourly_cost": 43.767
+          },
+          {
+            "participants": 113,
+            "hours": 7.817,
+            "hourly_cost": 44.354
+          },
+          {
+            "participants": 117,
+            "hours": 6.923,
+            "hourly_cost": 43.175
+          },
+          {
+            "participants": 126,
+            "hours": 8.119,
+            "hourly_cost": 45.477
+          },
+          {
+            "participants": 131,
+            "hours": 8.532,
+            "hourly_cost": 43.204
+          },
+          {
+            "participants": 149,
+            "hours": 8.27,
+            "hourly_cost": 45.898
+          },
+          {
+            "participants": 143,
+            "hours": 7.968,
+            "hourly_cost": 46.332
+          },
+          {
+            "participants": 103,
+            "hours": 6.629,
+            "hourly_cost": 44.506
+          },
+          {
+            "participants": 78,
+            "hours": 6.282,
+            "hourly_cost": 39.8
+          },
+          {
+            "participants": 96,
+            "hours": 6.905,
+            "hourly_cost": 38.839
+          },
+          {
+            "participants": 61,
+            "hours": 6.435,
+            "hourly_cost": 37.937
+          },
+          {
+            "participants": 143,
+            "hours": 8.048,
+            "hourly_cost": 47.415
+          },
+          {
+            "participants": 145,
+            "hours": 8.596,
+            "hourly_cost": 46.15
+          },
+          {
+            "participants": 102,
+            "hours": 6.679,
+            "hourly_cost": 42.491
+          },
+          {
+            "participants": 113,
+            "hours": 7.891,
+            "hourly_cost": 40.852
+          },
+          {
+            "participants": 124,
+            "hours": 6.989,
+            "hourly_cost": 41.846
+          },
+          {
+            "participants": 107,
+            "hours": 7.848,
+            "hourly_cost": 42.386
+          },
+          {
+            "participants": 46,
+            "hours": 6.03,
+            "hourly_cost": 35.664
+          },
+          {
+            "participants": 47,
+            "hours": 5.506,
+            "hourly_cost": 37.71
+          },
+          {
+            "participants": 46,
+            "hours": 4.515,
+            "hourly_cost": 36.881
+          },
+          {
+            "participants": 119,
+            "hours": 6.836,
+            "hourly_cost": 41.777
+          },
+          {
+            "participants": 104,
+            "hours": 6.679,
+            "hourly_cost": 44.598
+          },
+          {
+            "participants": 135,
+            "hours": 8.418,
+            "hourly_cost": 42.008
+          },
+          {
+            "participants": 71,
+            "hours": 5.747,
+            "hourly_cost": 37.343
+          },
+          {
+            "participants": 56,
+            "hours": 5.002,
+            "hourly_cost": 37.301
+          },
+          {
+            "participants": 58,
+            "hours": 6.312,
+            "hourly_cost": 40.244
+          },
+          {
+            "participants": 129,
+            "hours": 7.743,
+            "hourly_cost": 46.071
+          },
+          {
+            "participants": 53,
+            "hours": 4.93,
+            "hourly_cost": 41.256
+          },
+          {
+            "participants": 123,
+            "hours": 8.1,
+            "hourly_cost": 40.358
+          },
+          {
+            "participants": 51,
+            "hours": 5.943,
+            "hourly_cost": 40.808
+          },
+          {
+            "participants": 60,
+            "hours": 5.612,
+            "hourly_cost": 41.368
+          },
+          {
+            "participants": 128,
+            "hours": 8.454,
+            "hourly_cost": 45.544
+          },
+          {
+            "participants": 97,
+            "hours": 6.328,
+            "hourly_cost": 42.119
+          },
+          {
+            "participants": 57,
+            "hours": 5.01,
+            "hourly_cost": 39.899
+          },
+          {
+            "participants": 56,
+            "hours": 5.682,
+            "hourly_cost": 41.625
+          },
+          {
+            "participants": 43,
+            "hours": 4.724,
+            "hourly_cost": 38.09
+          },
+          {
+            "participants": 113,
+            "hours": 6.825,
+            "hourly_cost": 45.008
+          },
+          {
+            "participants": 134,
+            "hours": 7.303,
+            "hourly_cost": 44.989
+          },
+          {
+            "participants": 131,
+            "hours": 8.34,
+            "hourly_cost": 44.742
+          },
+          {
+            "participants": 145,
+            "hours": 8.723,
+            "hourly_cost": 47.017
+          },
+          {
+            "participants": 141,
+            "hours": 8.594,
+            "hourly_cost": 42.517
+          },
+          {
+            "participants": 56,
+            "hours": 4.957,
+            "hourly_cost": 39.764
+          },
+          {
+            "participants": 63,
+            "hours": 5.457,
+            "hourly_cost": 41.367
+          },
+          {
+            "participants": 111,
+            "hours": 7.25,
+            "hourly_cost": 41.601
+          },
+          {
+            "participants": 89,
+            "hours": 6.625,
+            "hourly_cost": 39.231
+          },
+          {
+            "participants": 128,
+            "hours": 7.472,
+            "hourly_cost": 42.628
+          },
+          {
+            "participants": 95,
+            "hours": 6.356,
+            "hourly_cost": 40.923
+          }
+        ],
+        "bounds_only": {
+          "overhead": [
+            1500,
+            3500
+          ]
+        }
+      },
+      "scenarios": [
+        {
+          "id": "reference",
+          "inputs": {
+            "participants": 90,
+            "hours": 7,
+            "hourly_cost": 40,
+            "overhead": 2200
+          }
+        },
+        {
+          "id": "busy",
+          "inputs": {
+            "participants": 140,
+            "hours": 8,
+            "hourly_cost": 45,
+            "overhead": 3000
+          }
+        }
+      ],
+      "budget_options": {
+        "shared": {
+          "fixed_cost": 2000,
+          "labor_multiplier": 1.1
+        },
+        "dedicated": {
+          "fixed_cost": 6500,
+          "labor_multiplier": 0.9
+        }
+      },
+      "capacity_limit": 180,
+      "internal_shock_sd": 400,
+      "budget_ceiling": 35000
+    },
+    "check": "参与人数、时长、成本来自联合资料，禁止独立打乱"
+  },
+  {
+    "name": "deterministic",
+    "study": {
+      "input_contract": {
+        "stochastic_joint": [
+          "participants",
+          "hours",
+          "hourly_cost"
+        ],
+        "joint_samples": [
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 53,
+            "hours": 5.619,
+            "hourly_cost": 38.6
+          },
+          {
+            "participants": 139,
+            "hours": 7.869,
+            "hourly_cost": 41.703
+          },
+          {
+            "participants": 87,
+            "hours": 7.191,
+            "hourly_cost": 39.325
+          },
+          {
+            "participants": 59,
+            "hours": 6.186,
+            "hourly_cost": 39.981
+          },
+          {
+            "participants": 113,
+            "hours": 6.652,
+            "hourly_cost": 42.55
+          },
+          {
+            "participants": 84,
+            "hours": 5.837,
+            "hourly_cost": 39.965
+          },
+          {
+            "participants": 116,
+            "hours": 7.542,
+            "hourly_cost": 45.108
+          },
+          {
+            "participants": 126,
+            "hours": 6.833,
+            "hourly_cost": 40.834
+          },
+          {
+            "participants": 83,
+            "hours": 6.959,
+            "hourly_cost": 40.321
+          },
+          {
+            "participants": 133,
+            "hours": 8.451,
+            "hourly_cost": 45.227
+          },
+          {
+            "participants": 74,
+            "hours": 5.646,
+            "hourly_cost": 42.633
+          },
+          {
+            "participants": 85,
+            "hours": 7.066,
+            "hourly_cost": 41.631
+          },
+          {
+            "participants": 131,
+            "hours": 7.506,
+            "hourly_cost": 46.076
+          },
+          {
+            "participants": 121,
+            "hours": 7.234,
+            "hourly_cost": 43.611
+          },
+          {
+            "participants": 99,
+            "hours": 7.155,
+            "hourly_cost": 42.684
+          },
+          {
+            "participants": 54,
+            "hours": 4.928,
+            "hourly_cost": 39.062
+          },
+          {
+            "participants": 74,
+            "hours": 5.841,
+            "hourly_cost": 42.137
+          },
+          {
+            "participants": 80,
+            "hours": 6.687,
+            "hourly_cost": 40.286
+          },
+          {
+            "participants": 112,
+            "hours": 7.337,
+            "hourly_cost": 41.035
+          },
+          {
+            "participants": 145,
+            "hours": 8.53,
+            "hourly_cost": 45.648
+          },
+          {
+            "participants": 70,
+            "hours": 6.567,
+            "hourly_cost": 37.138
+          },
+          {
+            "participants": 68,
+            "hours": 5.617,
+            "hourly_cost": 40.734
+          },
+          {
+            "participants": 102,
+            "hours": 6.634,
+            "hourly_cost": 41.899
+          },
+          {
+            "participants": 106,
+            "hours": 7.356,
+            "hourly_cost": 43.109
+          },
+          {
+            "participants": 121,
+            "hours": 7.515,
+            "hourly_cost": 45.709
+          },
+          {
+            "participants": 45,
+            "hours": 5.926,
+            "hourly_cost": 36.581
+          },
+          {
+            "participants": 116,
+            "hours": 6.715,
+            "hourly_cost": 40.104
+          },
+          {
+            "participants": 64,
+            "hours": 5.524,
+            "hourly_cost": 37.114
+          },
+          {
+            "participants": 95,
+            "hours": 6.742,
+            "hourly_cost": 38.958
+          },
+          {
+            "participants": 148,
+            "hours": 8.823,
+            "hourly_cost": 47.786
+          },
+          {
+            "participants": 149,
+            "hours": 7.688,
+            "hourly_cost": 42.691
+          },
+          {
+            "participants": 77,
+            "hours": 6.969,
+            "hourly_cost": 41.584
+          },
+          {
+            "participants": 64,
+            "hours": 5.403,
+            "hourly_cost": 38.837
+          },
+          {
+            "participants": 41,
+            "hours": 5.176,
+            "hourly_cost": 40.655
+          },
+          {
+            "participants": 62,
+            "hours": 6.544,
+            "hourly_cost": 38.412
+          },
+          {
+            "participants": 115,
+            "hours": 7.357,
+            "hourly_cost": 41.721
+          },
+          {
+            "participants": 57,
+            "hours": 5.99,
+            "hourly_cost": 36.604
+          },
+          {
+            "participants": 132,
+            "hours": 7.332,
+            "hourly_cost": 43.788
+          },
+          {
+            "participants": 102,
+            "hours": 6.751,
+            "hourly_cost": 40.69
+          },
+          {
+            "participants": 108,
+            "hours": 7.001,
+            "hourly_cost": 41.267
+          },
+          {
+            "participants": 142,
+            "hours": 8.208,
+            "hourly_cost": 46.793
+          },
+          {
+            "participants": 122,
+            "hours": 7.581,
+            "hourly_cost": 42.841
+          },
+          {
+            "participants": 96,
+            "hours": 6.309,
+            "hourly_cost": 38.71
+          },
+          {
+            "participants": 145,
+            "hours": 8.832,
+            "hourly_cost": 46.369
+          },
+          {
+            "participants": 107,
+            "hours": 6.669,
+            "hourly_cost": 42.009
+          },
+          {
+            "participants": 67,
+            "hours": 5.527,
+            "hourly_cost": 42.368
+          },
+          {
+            "participants": 117,
+            "hours": 7.254,
+            "hourly_cost": 42.602
+          },
+          {
+            "participants": 116,
+            "hours": 7.446,
+            "hourly_cost": 45.568
+          },
+          {
+            "participants": 45,
+            "hours": 4.643,
+            "hourly_cost": 39.959
+          },
+          {
+            "participants": 133,
+            "hours": 7.787,
+            "hourly_cost": 44.95
+          },
+          {
+            "participants": 114,
+            "hours": 7.98,
+            "hourly_cost": 40.541
+          },
+          {
+            "participants": 62,
+            "hours": 6.019,
+            "hourly_cost": 38.208
+          },
+          {
+            "participants": 42,
+            "hours": 4.463,
+            "hourly_cost": 40.306
+          },
+          {
+            "participants": 137,
+            "hours": 7.77,
+            "hourly_cost": 42.921
+          },
+          {
+            "participants": 62,
+            "hours": 5.84,
+            "hourly_cost": 41.83
+          },
+          {
+            "participants": 67,
+            "hours": 5.483,
+            "hourly_cost": 39.143
+          },
+          {
+            "participants": 137,
+            "hours": 7.449,
+            "hourly_cost": 46.259
+          },
+          {
+            "participants": 88,
+            "hours": 6.422,
+            "hourly_cost": 43.064
+          },
+          {
+            "participants": 89,
+            "hours": 6.587,
+            "hourly_cost": 39.991
+          },
+          {
+            "participants": 60,
+            "hours": 5.83,
+            "hourly_cost": 38.071
+          },
+          {
+            "participants": 98,
+            "hours": 7.142,
+            "hourly_cost": 42.16
+          },
+          {
+            "participants": 71,
+            "hours": 6.617,
+            "hourly_cost": 39.297
+          },
+          {
+            "participants": 86,
+            "hours": 6.933,
+            "hourly_cost": 40.169
+          },
+          {
+            "participants": 113,
+            "hours": 7.81,
+            "hourly_cost": 42.983
+          },
+          {
+            "participants": 124,
+            "hours": 7.665,
+            "hourly_cost": 41.542
+          },
+          {
+            "participants": 146,
+            "hours": 7.91,
+            "hourly_cost": 46.122
+          },
+          {
+            "participants": 142,
+            "hours": 7.804,
+            "hourly_cost": 44.777
+          },
+          {
+            "participants": 146,
+            "hours": 8.253,
+            "hourly_cost": 42.545
+          },
+          {
+            "participants": 49,
+            "hours": 5.557,
+            "hourly_cost": 37.712
+          },
+          {
+            "participants": 113,
+            "hours": 7.963,
+            "hourly_cost": 41.893
+          },
+          {
+            "participants": 48,
+            "hours": 5.673,
+            "hourly_cost": 37.023
+          },
+          {
+            "participants": 144,
+            "hours": 8.157,
+            "hourly_cost": 42.022
+          },
+          {
+            "participants": 43,
+            "hours": 5.401,
+            "hourly_cost": 39.599
+          },
+          {
+            "participants": 82,
+            "hours": 6.518,
+            "hourly_cost": 39.116
+          },
+          {
+            "participants": 71,
+            "hours": 5.521,
+            "hourly_cost": 41.858
+          },
+          {
+            "participants": 125,
+            "hours": 7.575,
+            "hourly_cost": 40.54
+          },
+          {
+            "participants": 122,
+            "hours": 6.833,
+            "hourly_cost": 42.74
+          },
+          {
+            "participants": 94,
+            "hours": 5.996,
+            "hourly_cost": 39.286
+          },
+          {
+            "participants": 72,
+            "hours": 5.87,
+            "hourly_cost": 37.84
+          },
+          {
+            "participants": 59,
+            "hours": 5.935,
+            "hourly_cost": 39.166
+          },
+          {
+            "participants": 97,
+            "hours": 6.185,
+            "hourly_cost": 44.051
+          },
+          {
+            "participants": 52,
+            "hours": 6.078,
+            "hourly_cost": 38.248
+          },
+          {
+            "participants": 47,
+            "hours": 6.01,
+            "hourly_cost": 39.433
+          },
+          {
+            "participants": 73,
+            "hours": 5.36,
+            "hourly_cost": 37.092
+          },
+          {
+            "participants": 79,
+            "hours": 5.605,
+            "hourly_cost": 42.075
+          },
+          {
+            "participants": 140,
+            "hours": 8.766,
+            "hourly_cost": 41.96
+          },
+          {
+            "participants": 43,
+            "hours": 4.52,
+            "hourly_cost": 38.038
+          },
+          {
+            "participants": 116,
+            "hours": 6.54,
+            "hourly_cost": 43.425
+          },
+          {
+            "participants": 104,
+            "hours": 6.188,
+            "hourly_cost": 40.447
+          },
+          {
+            "participants": 141,
+            "hours": 7.459,
+            "hourly_cost": 44.482
+          },
+          {
+            "participants": 75,
+            "hours": 6.859,
+            "hourly_cost": 37.902
+          },
+          {
+            "participants": 76,
+            "hours": 5.822,
+            "hourly_cost": 41.153
+          },
+          {
+            "participants": 64,
+            "hours": 5.846,
+            "hourly_cost": 38.374
+          },
+          {
+            "participants": 41,
+            "hours": 5.087,
+            "hourly_cost": 36.543
+          },
+          {
+            "participants": 97,
+            "hours": 7.286,
+            "hourly_cost": 41.357
+          },
+          {
+            "participants": 114,
+            "hours": 7.652,
+            "hourly_cost": 45.353
+          },
+          {
+            "participants": 142,
+            "hours": 7.567,
+            "hourly_cost": 44.137
+          },
+          {
+            "participants": 134,
+            "hours": 8.421,
+            "hourly_cost": 46.691
+          },
+          {
+            "participants": 147,
+            "hours": 7.849,
+            "hourly_cost": 43.894
+          },
+          {
+            "participants": 94,
+            "hours": 6.017,
+            "hourly_cost": 41.234
+          },
+          {
+            "participants": 121,
+            "hours": 7.576,
+            "hourly_cost": 45.485
+          },
+          {
+            "participants": 69,
+            "hours": 5.868,
+            "hourly_cost": 41.428
+          },
+          {
+            "participants": 141,
+            "hours": 8.564,
+            "hourly_cost": 42.979
+          },
+          {
+            "participants": 81,
+            "hours": 5.801,
+            "hourly_cost": 39.161
+          },
+          {
+            "participants": 127,
+            "hours": 7.256,
+            "hourly_cost": 42.693
+          },
+          {
+            "participants": 75,
+            "hours": 6.131,
+            "hourly_cost": 40.604
+          },
+          {
+            "participants": 42,
+            "hours": 5.507,
+            "hourly_cost": 40.723
+          },
+          {
+            "participants": 118,
+            "hours": 6.886,
+            "hourly_cost": 44.664
+          },
+          {
+            "participants": 134,
+            "hours": 7.788,
+            "hourly_cost": 43.559
+          },
+          {
+            "participants": 104,
+            "hours": 6.178,
+            "hourly_cost": 40.038
+          },
+          {
+            "participants": 110,
+            "hours": 7.285,
+            "hourly_cost": 41.959
+          },
+          {
+            "participants": 81,
+            "hours": 5.564,
+            "hourly_cost": 38.592
+          },
+          {
+            "participants": 49,
+            "hours": 5.705,
+            "hourly_cost": 37.526
+          },
+          {
+            "participants": 102,
+            "hours": 6.617,
+            "hourly_cost": 40.018
+          },
+          {
+            "participants": 145,
+            "hours": 8.132,
+            "hourly_cost": 42.254
+          },
+          {
+            "participants": 80,
+            "hours": 6.225,
+            "hourly_cost": 42.54
+          },
+          {
+            "participants": 139,
+            "hours": 8.285,
+            "hourly_cost": 43.837
+          },
+          {
+            "participants": 85,
+            "hours": 5.948,
+            "hourly_cost": 41.294
+          },
+          {
+            "participants": 80,
+            "hours": 6.739,
+            "hourly_cost": 43.03
+          },
+          {
+            "participants": 109,
+            "hours": 6.561,
+            "hourly_cost": 41.356
+          },
+          {
+            "participants": 87,
+            "hours": 5.769,
+            "hourly_cost": 41.845
+          },
+          {
+            "participants": 144,
+            "hours": 7.683,
+            "hourly_cost": 45.35
+          },
+          {
+            "participants": 129,
+            "hours": 7.388,
+            "hourly_cost": 40.764
+          },
+          {
+            "participants": 75,
+            "hours": 5.876,
+            "hourly_cost": 37.446
+          },
+          {
+            "participants": 108,
+            "hours": 7.134,
+            "hourly_cost": 44.096
+          },
+          {
+            "participants": 144,
+            "hours": 8.61,
+            "hourly_cost": 43.077
+          },
+          {
+            "participants": 71,
+            "hours": 6.702,
+            "hourly_cost": 41.072
+          },
+          {
+            "participants": 48,
+            "hours": 5.631,
+            "hourly_cost": 37.13
+          },
+          {
+            "participants": 67,
+            "hours": 5.317,
+            "hourly_cost": 40.655
+          },
+          {
+            "participants": 116,
+            "hours": 6.649,
+            "hourly_cost": 39.82
+          },
+          {
+            "participants": 146,
+            "hours": 7.636,
+            "hourly_cost": 45.661
+          },
+          {
+            "participants": 66,
+            "hours": 5.905,
+            "hourly_cost": 41.302
+          },
+          {
+            "participants": 119,
+            "hours": 7.861,
+            "hourly_cost": 41.376
+          },
+          {
+            "participants": 85,
+            "hours": 6.406,
+            "hourly_cost": 43.043
+          },
+          {
+            "participants": 68,
+            "hours": 6.015,
+            "hourly_cost": 39.317
+          },
+          {
+            "participants": 108,
+            "hours": 7.842,
+            "hourly_cost": 40.397
+          },
+          {
+            "participants": 93,
+            "hours": 6.605,
+            "hourly_cost": 39.328
+          },
+          {
+            "participants": 93,
+            "hours": 6.02,
+            "hourly_cost": 41.527
+          },
+          {
+            "participants": 123,
+            "hours": 7.605,
+            "hourly_cost": 44.183
+          },
+          {
+            "participants": 107,
+            "hours": 6.337,
+            "hourly_cost": 41.514
+          },
+          {
+            "participants": 143,
+            "hours": 8.834,
+            "hourly_cost": 47.485
+          },
+          {
+            "participants": 62,
+            "hours": 5.941,
+            "hourly_cost": 37.011
+          },
+          {
+            "participants": 94,
+            "hours": 6.885,
+            "hourly_cost": 40.31
+          },
+          {
+            "participants": 49,
+            "hours": 5.916,
+            "hourly_cost": 37.042
+          },
+          {
+            "participants": 47,
+            "hours": 4.634,
+            "hourly_cost": 36.992
+          },
+          {
+            "participants": 73,
+            "hours": 5.59,
+            "hourly_cost": 40.991
+          },
+          {
+            "participants": 72,
+            "hours": 5.277,
+            "hourly_cost": 40.445
+          },
+          {
+            "participants": 132,
+            "hours": 7.275,
+            "hourly_cost": 46.221
+          },
+          {
+            "participants": 97,
+            "hours": 7.569,
+            "hourly_cost": 42.122
+          },
+          {
+            "participants": 97,
+            "hours": 5.978,
+            "hourly_cost": 42.475
+          },
+          {
+            "participants": 85,
+            "hours": 6.102,
+            "hourly_cost": 42.979
+          },
+          {
+            "participants": 138,
+            "hours": 7.608,
+            "hourly_cost": 42.406
+          },
+          {
+            "participants": 114,
+            "hours": 7.317,
+            "hourly_cost": 43.767
+          },
+          {
+            "participants": 113,
+            "hours": 7.817,
+            "hourly_cost": 44.354
+          },
+          {
+            "participants": 117,
+            "hours": 6.923,
+            "hourly_cost": 43.175
+          },
+          {
+            "participants": 126,
+            "hours": 8.119,
+            "hourly_cost": 45.477
+          },
+          {
+            "participants": 131,
+            "hours": 8.532,
+            "hourly_cost": 43.204
+          },
+          {
+            "participants": 149,
+            "hours": 8.27,
+            "hourly_cost": 45.898
+          },
+          {
+            "participants": 143,
+            "hours": 7.968,
+            "hourly_cost": 46.332
+          },
+          {
+            "participants": 103,
+            "hours": 6.629,
+            "hourly_cost": 44.506
+          },
+          {
+            "participants": 78,
+            "hours": 6.282,
+            "hourly_cost": 39.8
+          },
+          {
+            "participants": 96,
+            "hours": 6.905,
+            "hourly_cost": 38.839
+          },
+          {
+            "participants": 61,
+            "hours": 6.435,
+            "hourly_cost": 37.937
+          },
+          {
+            "participants": 143,
+            "hours": 8.048,
+            "hourly_cost": 47.415
+          },
+          {
+            "participants": 145,
+            "hours": 8.596,
+            "hourly_cost": 46.15
+          },
+          {
+            "participants": 102,
+            "hours": 6.679,
+            "hourly_cost": 42.491
+          },
+          {
+            "participants": 113,
+            "hours": 7.891,
+            "hourly_cost": 40.852
+          },
+          {
+            "participants": 124,
+            "hours": 6.989,
+            "hourly_cost": 41.846
+          },
+          {
+            "participants": 107,
+            "hours": 7.848,
+            "hourly_cost": 42.386
+          },
+          {
+            "participants": 46,
+            "hours": 6.03,
+            "hourly_cost": 35.664
+          },
+          {
+            "participants": 47,
+            "hours": 5.506,
+            "hourly_cost": 37.71
+          },
+          {
+            "participants": 46,
+            "hours": 4.515,
+            "hourly_cost": 36.881
+          },
+          {
+            "participants": 119,
+            "hours": 6.836,
+            "hourly_cost": 41.777
+          },
+          {
+            "participants": 104,
+            "hours": 6.679,
+            "hourly_cost": 44.598
+          },
+          {
+            "participants": 135,
+            "hours": 8.418,
+            "hourly_cost": 42.008
+          },
+          {
+            "participants": 71,
+            "hours": 5.747,
+            "hourly_cost": 37.343
+          },
+          {
+            "participants": 56,
+            "hours": 5.002,
+            "hourly_cost": 37.301
+          },
+          {
+            "participants": 58,
+            "hours": 6.312,
+            "hourly_cost": 40.244
+          },
+          {
+            "participants": 129,
+            "hours": 7.743,
+            "hourly_cost": 46.071
+          },
+          {
+            "participants": 53,
+            "hours": 4.93,
+            "hourly_cost": 41.256
+          },
+          {
+            "participants": 123,
+            "hours": 8.1,
+            "hourly_cost": 40.358
+          },
+          {
+            "participants": 51,
+            "hours": 5.943,
+            "hourly_cost": 40.808
+          },
+          {
+            "participants": 60,
+            "hours": 5.612,
+            "hourly_cost": 41.368
+          },
+          {
+            "participants": 128,
+            "hours": 8.454,
+            "hourly_cost": 45.544
+          },
+          {
+            "participants": 97,
+            "hours": 6.328,
+            "hourly_cost": 42.119
+          },
+          {
+            "participants": 57,
+            "hours": 5.01,
+            "hourly_cost": 39.899
+          },
+          {
+            "participants": 56,
+            "hours": 5.682,
+            "hourly_cost": 41.625
+          },
+          {
+            "participants": 43,
+            "hours": 4.724,
+            "hourly_cost": 38.09
+          },
+          {
+            "participants": 113,
+            "hours": 6.825,
+            "hourly_cost": 45.008
+          },
+          {
+            "participants": 134,
+            "hours": 7.303,
+            "hourly_cost": 44.989
+          },
+          {
+            "participants": 131,
+            "hours": 8.34,
+            "hourly_cost": 44.742
+          },
+          {
+            "participants": 145,
+            "hours": 8.723,
+            "hourly_cost": 47.017
+          },
+          {
+            "participants": 141,
+            "hours": 8.594,
+            "hourly_cost": 42.517
+          },
+          {
+            "participants": 56,
+            "hours": 4.957,
+            "hourly_cost": 39.764
+          },
+          {
+            "participants": 63,
+            "hours": 5.457,
+            "hourly_cost": 41.367
+          },
+          {
+            "participants": 111,
+            "hours": 7.25,
+            "hourly_cost": 41.601
+          },
+          {
+            "participants": 89,
+            "hours": 6.625,
+            "hourly_cost": 39.231
+          },
+          {
+            "participants": 128,
+            "hours": 7.472,
+            "hourly_cost": 42.628
+          },
+          {
+            "participants": 95,
+            "hours": 6.356,
+            "hourly_cost": 40.923
+          }
+        ],
+        "bounds_only": {
+          "overhead": [
+            1500,
+            3500
+          ]
+        }
+      },
+      "scenarios": [
+        {
+          "id": "reference",
+          "inputs": {
+            "participants": 90,
+            "hours": 7,
+            "hourly_cost": 40,
+            "overhead": 2200
+          }
+        },
+        {
+          "id": "busy",
+          "inputs": {
+            "participants": 140,
+            "hours": 8,
+            "hourly_cost": 45,
+            "overhead": 3000
+          }
+        }
+      ],
+      "budget_options": {
+        "shared": {
+          "fixed_cost": 2000,
+          "labor_multiplier": 1.1
+        },
+        "dedicated": {
+          "fixed_cost": 6500,
+          "labor_multiplier": 0.9
+        }
+      },
+      "capacity_limit": 180,
+      "internal_shock_sd": 0,
+      "budget_ceiling": 35000
+    },
+    "check": "内部噪声应退化为零"
+  },
+  {
+    "name": "noise_only",
+    "study": {
+      "input_contract": {
+        "stochastic_joint": [
+          "participants",
+          "hours",
+          "hourly_cost"
+        ],
+        "joint_samples": [
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          },
+          {
+            "participants": 105,
+            "hours": 6.684,
+            "hourly_cost": 43.016
+          }
+        ],
+        "bounds_only": {
+          "overhead": [
+            1500,
+            3500
+          ]
+        }
+      },
+      "scenarios": [
+        {
+          "id": "reference",
+          "inputs": {
+            "participants": 90,
+            "hours": 7,
+            "hourly_cost": 40,
+            "overhead": 2200
+          }
+        },
+        {
+          "id": "busy",
+          "inputs": {
+            "participants": 140,
+            "hours": 8,
+            "hourly_cost": 45,
+            "overhead": 3000
+          }
+        }
+      ],
+      "budget_options": {
+        "shared": {
+          "fixed_cost": 2000,
+          "labor_multiplier": 1.1
+        },
+        "dedicated": {
+          "fixed_cost": 6500,
+          "labor_multiplier": 0.9
+        }
+      },
+      "capacity_limit": 180,
+      "internal_shock_sd": 400,
+      "budget_ceiling": 35000
+    },
+    "check": "联合参数不变时内部噪声不能归为参数重要性"
+  },
+  {
+    "name": "additive_oracle",
+    "study": {
+      "variables": [
+        "first",
+        "second"
+      ],
+      "independent_variances": [
+        1,
+        4
+      ],
+      "coefficients": [
+        2,
+        1
+      ]
+    },
+    "check": "独立加性方差贡献4与4，各占.5，仅作方法独立基准"
+  }
+]
