@@ -18,6 +18,8 @@ python3 -m pip install --only-binary=:all: -r requirements.txt
 python3 -m app.service
 ```
 
+浏览器回归使用锁定的 Playwright 1.56.0 与其配套 Chromium。镜像构建阶段预装浏览器和系统库，测试与服务运行不下载任何依赖，不依赖宿主机的 Chrome 或 Edge。直接使用 Python 环境时，也需在准备阶段执行 `python3 -m playwright install --with-deps chromium`。
+
 APP_STUDY 可以指定同结构本地资料，APP_STATE_DIR 指定批注目录，默认是 .local。批注只保存人工文字与当时的表单选择，不冻结分析数据或生成统计发布；删除该目录可回到干净本地状态，原始资料不变。
 
 ## 构建与检查
@@ -28,7 +30,7 @@ python3 -m unittest discover -s tests -v
 docker run --rm --network none decision-sensitivity-studio:local python -m unittest discover -s tests -v
 ```
 
-测试覆盖现行领域语义、HTTP 错误边界和批注重开。data/analysis-cases.json 是后续分析可使用的独立检查资料，docs/analysis-contract.md 说明其统计意义和适用限制；这些资料不要求每次输出某种结论方向。新增分析需要自行补上相应数值、业务与页面回归验证。
+测试覆盖现行领域语义、HTTP 错误边界和批注重开，并在真实 Chromium 中遍历资料表、核对表单响应与实时 HTTP 结果一致、保存批注并刷新确认。浏览器缺失或脚本报错会令测试失败，不跳过检查。data/analysis-cases.json 是后续分析可使用的独立检查资料，docs/analysis-contract.md 说明其统计意义和适用限制；这些资料不要求每次输出某种结论方向。新增分析需要自行补上相应数值、业务与页面回归验证。
 
 ## 短时间实机查看
 
