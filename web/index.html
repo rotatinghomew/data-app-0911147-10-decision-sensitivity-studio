@@ -1,10 +1,17 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>相关不确定输入下预算模型的全局敏感性与补测选择</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
-<body><header><h1>相关不确定输入下预算模型的全局敏感性与补测选择</h1><p>有约束的单情景预算计算与共同随机冲击重放</p></header><main>
+<body><header><h1>相关不确定输入下预算模型的全局敏感性与补测选择</h1><p>联合输入、内部噪声与知识范围分开；贡献估计带误差与适用假设</p></header><main>
 <section><h2>当前资料概况</h2><pre id="summary">载入中</pre></section>
 <section><h2>业务记录</h2><label>记录集合<select id="source"></select></label><span id="record-count"></span><div id="records"></div></section>
 <div class="columns"><section><h2>计算单个预算情景</h2><form id="action-form"></form><pre id="result">选择记录后操作</pre>
 <aside>当前页面保留原始描述与业务记录，具体统计含义见分析约定。</aside></section>
 <section><h2>工作批注</h2><form id="note-form"><textarea id="note" required maxlength="2000" aria-label="批注内容"></textarea><button>保存批注</button></form><ul id="notes"></ul></section></div>
+
+<section class="analysis"><h2>全局敏感性分析</h2>
+<p class="lede">按联合观测保留输入之间的相关，比较关键投入对预算超支和方案选择的影响；同时给出贡献估计的抽样误差、拟合证据与适用假设。内部随机冲击单独列出，不混入参数重要性。</p>
+<form id="sensitivity-form"></form>
+<div id="sensitivity-status" class="status" role="status">尚未运行</div>
+<div id="sensitivity-result"></div>
+</section>
 </main></body></html>

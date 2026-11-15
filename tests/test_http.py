@@ -60,6 +60,35 @@ class HttpContractTests(unittest.TestCase):
         self.assertEqual(caught.exception.code, 404)
         caught.exception.close()
 
+    def test_sensitivity_meta_and_live_analysis(self):
+        status, meta = self.request('/api/sensitivity/meta')
+        self.assertEqual(status, 200)
+        self.assertEqual(meta['inputs'], ['participants', 'hours', 'hourly_cost'])
+        self.assertIn('overhead', meta['bounds_only'])
+        status, result = self.request('/api/sensitivity', {
+            'scenario': 'reference', 'bootstrap': 20, 'degree': 2, 'seed': 42})
+        self.assertEqual(status, 200)
+        self.assertEqual(result['analysis_version'], 1)
+        self.assertEqual(result['diagnostics']['bootstrap']['completed'], 20)
+        self.assertEqual([item['input'] for item in result['bounds_only']], ['overhead'])
+        self.assertIsNone(result['bounds_only'][0]['distribution'])
+        self.assertIn('sets', result['information'])
+        # JSON 中不应出现 NaN 或 Infinity
+        text = json.dumps(result, allow_nan=False)
+        self.assertTrue(text)
+
+    def test_sensitivity_rejects_bad_input_with_explanation(self):
+        for payload in ({'scenario': 'unknown'},
+                        {'scenario': 'reference', 'bootstrap': 0},
+                        {'scenario': 'reference', 'bootstrap': 20, 'degree': 7},
+                        {'scenario': 'reference', 'bootstrap': 20, 'measurement_costs': {'overhead': 10}}):
+            with self.assertRaises(HTTPError) as caught:
+                self.request('/api/sensitivity', payload)
+            self.assertEqual(caught.exception.code, 400)
+            body = json.load(caught.exception)
+            self.assertTrue(body['error'])
+            caught.exception.close()
+
     def test_page_assets_available(self):
         for path in ('/', '/app.js', '/style.css'):
             with urlopen(self.base + path, timeout=5) as response:

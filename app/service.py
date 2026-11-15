@@ -7,7 +7,7 @@ import json
 import os
 import threading
 
-from . import domain
+from . import domain, sensitivity
 from .storage import NoteStore
 
 
@@ -47,6 +47,8 @@ def create_server(host='127.0.0.1', port=0, data=None, state_dir=None):
                     self.reply(200, dataset)
                 elif route == '/api/summary':
                     self.reply(200, domain.baseline(dataset))
+                elif route == '/api/sensitivity/meta':
+                    self.reply(200, sensitivity.metadata(dataset))
                 elif route == '/api/notes':
                     self.reply(200, {'notes': notes.list()})
                 elif route in ('/', '/app.js', '/style.css'):
@@ -60,7 +62,7 @@ def create_server(host='127.0.0.1', port=0, data=None, state_dir=None):
 
         def do_POST(self):
             route = urlsplit(self.path).path
-            if route not in ('/api/action', '/api/notes'):
+            if route not in ('/api/action', '/api/sensitivity', '/api/notes'):
                 self.reply(404, {'error': '路径不存在'})
                 return
             try:
@@ -73,6 +75,8 @@ def create_server(host='127.0.0.1', port=0, data=None, state_dir=None):
                 if route == '/api/action':
                     result = domain.act(dataset, payload)
                     self.reply(200, result)
+                elif route == '/api/sensitivity':
+                    self.reply(200, sensitivity.analyze(dataset, payload))
                 else:
                     self.reply(201, notes.append(payload.get('text'), payload.get('selection', {})))
             except (ValueError, KeyError, TypeError) as error:
